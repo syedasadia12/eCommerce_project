@@ -1,0 +1,7 @@
+<ecommerce-loader></ecommerce-loader>
+<div class="pageContain">
+    <ecommerce-header [custStatus]="custIsAuthenticated" [custName]="custName"></ecommerce-header>
+    <ecommerce-navbar></ecommerce-navbar>
+    <ecommerce-alert [alertMsg]="alertMsg"></ecommerce-alert>
+    <router-outlet></router-outlet>
+</div>
